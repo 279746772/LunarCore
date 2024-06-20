@@ -127,9 +127,9 @@ public class Config {
         public boolean spendStamina = true;
         public int staminaRecoveryRate = 5 * 60;
         public int staminaReserveRecoveryRate = 18 * 60;
-        public int startTrailblazerLevel = 1; // Starting trailblazer level for new players
+        public int startTrailblazerLevel = 70; // Starting trailblazer level for new players
         public boolean autoUpgradeWorldLevel = true; // Automatically upgrades world level when the player reaches a certain TB level
-        public String language = "EN";
+        public String language = "CHS";
         public Set<String> defaultPermissions = Set.of("*");
         
         public ServerProfile serverFriendInfo = new ServerProfile();
@@ -157,10 +157,10 @@ public class Config {
     public static class ServerProfile {
         public String name = "Server";
         public String signature = "Type /help for a list of commands";
-        public int level = 1;
-        public int headIcon = 201001;
+        public int level = 70;
+        public int headIcon = 200123;
         public int chatBubbleId = 0;
-        public List<ServerDisplayAvatar> displayAvatars = List.of(new ServerDisplayAvatar(1001, 1));
+        public List<ServerDisplayAvatar> displayAvatars = List.of(new ServerDisplayAvatar(1310, 80));
         
         @Getter
         public static class ServerDisplayAvatar {
